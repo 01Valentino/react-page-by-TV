@@ -15,14 +15,14 @@ const App = () => {
           <TiWorld className="text-4xl" />
           <h4 className="text-2xl">my travel journal</h4>
         </div>
-        <div className="  flex flex-col justify-center overflow-hidden">
+        <div className="  flex flex-col justify-center">
           <div className="max-w-3xl mx-auto mb-5 mt-10 pl-10 pr-10 md:flex gap-10 items-center">
             <img
               src={image1}
               alt=""
               className="rounded-2xl flex justify-center h-75 max-w-2xs"
             />
-            <div>
+            <div className="max-w-sm">
               <Travel
                 country={"JAPAN"}
                 view={"View on Google Maps"}
@@ -40,7 +40,7 @@ const App = () => {
               alt=""
               className="rounded-2xl flex justify-center h-75 max-w-2xs"
             />
-            <div>
+            <div className="max-w-sm">
               <Travel
                 country={"AUSTRALIA"}
                 view={"View on Google Maps"}
@@ -58,7 +58,7 @@ const App = () => {
               alt=""
               className="rounded-2xl flex justify-center h-75 max-w-2xs"
             />
-            <div>
+            <div className="max-w-sm">
               <Travel
                 country={"NORWAY"}
                 view={"View on Google Maps"}
